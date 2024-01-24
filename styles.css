@@ -1,0 +1,162 @@
+/* styles.css */
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #181a1b;
+}
+
+h1 {
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    margin: 5px;
+    text-align: center; /* Center the heading */
+}
+
+.purple{
+    color: #7413DC;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+    max-width: 150%;
+    text-align: left;
+    margin: 0 auto; /* Center the paragraph */
+}
+
+header {
+    background-color: #7413DC;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+.logo-container img {
+    width: 250px; /* Adjust the width as needed */
+    height: auto;
+}
+
+nav {
+    display: flex;
+    align-items: center; /* Align items vertically */
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.image-banner {
+    width: 100%;
+    height: auto;
+    background-image: url('images/tmp.png');
+    background-size: cover;
+    background-position: center;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    bottom: 0;
+    width: 100%;
+}
+
+#home {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Allow flex items to wrap on smaller screens */
+}
+
+.text-content {
+    max-width: 50%; /* Limit the width of the text content */
+    text-align: left;
+}
+
+.image-container {
+    max-width: 50%; /* Limit the width of the image container */
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+button {
+    padding: 10px;
+    background-color: #00a794;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 350px;
+    font-size: larger;
+}
+
+button:hover {
+    background-color: #7413DC;
+}
+
+a {
+    color: white;
+}
+
+/* Add these styles for the modern look */
+/* Add these styles for the modern look */
+ul {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+li {
+    font-family: 'Nunito Sans', sans-serif; /* Change the font to Nunito Sans */
+    font-size: 16px;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+li:hover {
+    transform: scale(1.05);
+}
+
+.files {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.files:hover {
+    color: #7413DC;
+}
+
+/* Adjust the font size for links in the list */
+ul li a.files {
+    font-size: 25px;
+}
+
+/* Your existing styles below this line */
+/* ... */
